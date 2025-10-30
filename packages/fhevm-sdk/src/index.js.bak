@@ -1,0 +1,28 @@
+// Lightweight SDK wrapper (placeholder crypto). Replace with Zama FHE calls later.
+import { toHex, fromHex } from './crypto.js';
+import { utils } from 'ethers';
+
+export async function init({ provider, signer, contractAddress, contractAbi }) {
+  return {
+    provider,
+    signer,
+    contractAddress,
+    contractAbi,
+    encrypt: async (plaintext) => {
+      return await toHex(plaintext);
+    },
+    decrypt: async (cipherHex) => {
+      return await fromHex(cipherHex);
+    },
+    sendEncrypted: async ({ encryptedPayload, overrides = {} }) => {
+      const iface = new utils.Interface(contractAbi);
+      const data = iface.encodeFunctionData('storeEncrypted', [encryptedPayload]);
+      return signer.sendTransaction({ to: contractAddress, data, ...overrides });
+    },
+    readEncrypted: async (callName, args = []) => {
+      const { Contract } = require('ethers');
+      const contract = new Contract(contractAddress, contractAbi, provider);
+      return contract[callName](...args);
+    }
+  };
+}

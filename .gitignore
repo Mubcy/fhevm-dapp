@@ -1,0 +1,10 @@
+﻿# local env
+.env
+# node modules
+frontend/node_modules
+node_modules
+# build/dist
+dist
+build
+.env.local
+.env.*.local
