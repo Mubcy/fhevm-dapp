@@ -1,7 +1,12 @@
 # 🪙 MyToken DApp — FHEVM ERC-20 Dashboard (ALL-IN-ONE SETUP)
 
+> **MyToken DApp** is a fully local ERC-20 dashboard built with **Foundry**, **Solidity**, and **React (Vite)**.  
+> It demonstrates smart contract deployment, on-chain data retrieval, and frontend integration — forming a foundation for future **Fully Homomorphic Encryption (FHE)**-enabled DApps.  
+> The project showcases how developers can bridge private computation (FHEVM) with standard Ethereum tools in an open, modular architecture.
+
+
 **One-shot instructions**: everything you need to go from repo on disk → local blockchain → deployed token → frontend running → commit & push.  
-These commands are written for **Windows PowerShell**. Run them in order from the project root (`C:\Users\Jimoh\Documents\fhevm-dapp`).
+These commands are written for **Windows PowerShell**. Run them in order from the project root (`C:\Users\User\Documents\fhevm-dapp`).
 
 ---
 
