@@ -6,6 +6,7 @@
 **Local RPC:** `http://127.0.0.1:8545`
 
 
+
 # 🪙 MyToken DApp — FHEVM ERC-20 Dashboard (ALL-IN-ONE SETUP)
 
 > **MyToken DApp** is a fully local ERC-20 dashboard built with **Foundry**, **Solidity**, and **React (Vite)**.  
