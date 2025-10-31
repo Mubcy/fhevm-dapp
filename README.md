@@ -1,9 +1,10 @@
-## 🚀 Live Demo
+# 🚀 LIVE DEMO
 
 **Frontend:** [https://frontend-g14uvjayg-jimohadam61-9416s-projects.vercel.app)
-
+USE:
 **Token Address:** `0x8464135c8F25Da09e49BC8782676a84730C318bC`  
 **Local RPC:** `http://127.0.0.1:8545`
+It was a last minute update that enables any tester to use their own prefered RPC and token address when needed.
 
 
 
