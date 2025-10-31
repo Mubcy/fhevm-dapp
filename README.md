@@ -1,3 +1,11 @@
+## 🚀 Live Demo
+
+**Frontend:** [https://frontend-g14uvjayg-jimohadam61-9416s-projects.vercel.app)
+
+**Token Address:** `0x8464135c8F25Da09e49BC8782676a84730C318bC`  
+**Local RPC:** `http://127.0.0.1:8545`
+
+
 # 🪙 MyToken DApp — FHEVM ERC-20 Dashboard (ALL-IN-ONE SETUP)
 
 > **MyToken DApp** is a fully local ERC-20 dashboard built with **Foundry**, **Solidity**, and **React (Vite)**.  
