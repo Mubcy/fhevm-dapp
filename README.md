@@ -1,4 +1,4 @@
-# 🚀 LIVE DEMO
+# 🚀 LIVE DEMO (DEV VERSION)
 
 **Frontend:**  
 👉 [https://frontend-g14uvjayi-jimohadam616s-projects.vercel.app](https://frontend-g14uvjayi-jimohadam616s-projects.vercel.app)
@@ -11,16 +11,16 @@
 **Local RPC:**  
 `http://127.0.0.1:8545`
 
-It was a last-minute update that enables any tester to use their own preferred RPC and token address when needed.
+It was a last-minute update that enables proper testing for any tester or dev, to enable them to use their own preferred RPC and token address when needed.
 
 ---
 
-# 🎥Video Presentation & Live Testing
+# 🎥Video Presentation & Live Testing (CLEAN VERSION)
 👉 https://drive.google.com/file/d/1fhoOCr32QiaoNczS90arxtYIAu-osEKw/view
 
 ---
 
-# 🪙 MyToken DApp — FHEVM ERC-20 Dashboard (ALL-IN-ONE SETUP)
+# 🪙 MyToken DApp — FHEVM ERC-20 Dashboard (ALL-IN-ONE SETUP) (CLEAN)
 
 > **MyToken DApp** is a fully local ERC-20 dashboard built with **Foundry**, **Solidity**, and **React (Vite)**.  
 > It demonstrates smart contract deployment, on-chain data retrieval, and frontend integration — forming a foundation for future **Fully Homomorphic Encryption (FHE)**-enabled DApps.  
